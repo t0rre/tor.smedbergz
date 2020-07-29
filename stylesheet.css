@@ -2,6 +2,8 @@ body {
   height: 100vh;
   background-color: coral;
   padding: 0;
+  margin: 0;
+  width: auto;
 }
 #title {
   color: white;
