@@ -9,3 +9,12 @@ body {
   text-align: center;
   font-weight: 300;
 }
+
+.footer {
+  background-color: dimgray;
+  width: 100vw;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 400;
+  font-style: italic;
+  
+}
