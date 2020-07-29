@@ -1,6 +1,7 @@
 body {
   height: 100vh;
   background-color: coral;
+  padding: 0;
 }
 #title {
   color: white;
