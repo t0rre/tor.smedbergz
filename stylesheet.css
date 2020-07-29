@@ -1,4 +1,9 @@
 body {
   height: 100vh;
-  background-color: lightcoral;
+  background-color: forestgreen;
+}
+#title {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size 30px;
 }
