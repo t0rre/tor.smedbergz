@@ -3,6 +3,7 @@ body {
   background-color: coral;
   background-image: url('tor_red_left_background.svg');
   background-repeat: no-repeat;
+  background-position-x: left;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
