@@ -1,6 +1,7 @@
 body {
   height: 100vh;
   background-color: coral;
+  background: url('tor_red_left_background.svg') left no-repeat;
   padding: 0;
   margin: 0;
   width: auto;
