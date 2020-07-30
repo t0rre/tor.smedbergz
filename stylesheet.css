@@ -4,10 +4,9 @@ body {
   background-image: url('tor_red_left_background.svg'), url('tor_red_right_background.svg');
   background-repeat: no-repeat, no-repeat;
   background-position-x: left, right;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed, fixed;
+  background-position: center, center;
+  background-size: cover, cover;
   padding: 0;
   margin: 0;
   width: auto;
