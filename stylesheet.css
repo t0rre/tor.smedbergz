@@ -36,7 +36,8 @@ body {
   justify-content: center;
 }
 .child {
-  flex: 0 1 150px;
+  /*Commented out for now, because otherwise github link becomes too large.*/
+  /*flex: 0 1 150px;*/
 }
 #quick-links {
   background-color: dimgray;
