@@ -17,10 +17,10 @@
       }
     ],
     "start_url": "/?source=pwa",
-    "background_color": "#3367D6",
+    "background_color": "coral",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#3367D6",
+    "theme_color": "#FB4A11",
     "shortcuts": [
       {
         "name": "Tor's Github",
