@@ -1,0 +1,33 @@
+{
+    "short_name": "Tor.smedbergz",
+    "name": "Tor.smedbergz.se",
+    "description": "Tor's personal webpage",
+    "icons": [
+      {
+        "src": "/images/tor_maskable.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/images/tor_maskable.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "Tor's Github",
+        "short_name": "Github",
+        "description": "A shortcut to Tor's github profile.",
+        "url": "https://github.com/t0rre",
+        "icons": [{ "src": "/images/github_maskable.png", "sizes": "192x192" }]
+      }
+    ]
+  }

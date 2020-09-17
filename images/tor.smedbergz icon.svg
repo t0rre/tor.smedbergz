@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(3.4829,0,0,2.86783,-466.322,-313.152)">
+        <ellipse cx="202.315" cy="224.237" rx="59.229" ry="64.019" style="fill:rgb(158,61,0);stroke:rgb(129,7,0);stroke-opacity:0;stroke-width:0.31px;"/>
+    </g>
+    <g transform="matrix(5.06621,0,0,4.68608,-307.497,-371.379)">
+        <ellipse cx="202.315" cy="224.237" rx="59.229" ry="64.019" style="fill:rgb(255,63,0);"/>
+    </g>
+    <g transform="matrix(6.86831,0,0,6.2241,-849.564,-871.583)">
+        <ellipse cx="202.315" cy="224.237" rx="59.229" ry="64.019" style="fill:rgb(255,101,34);"/>
+    </g>
+    <g transform="matrix(24.7602,0,0,24.7602,-5700.81,-16074.4)">
+        <text x="238.322px" y="679.413px" style="font-family:'Quicksand-Light_Regular', 'Quicksand';font-weight:300;font-size:24px;fill:white;">TS</text>
+    </g>
+</svg>
