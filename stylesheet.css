@@ -49,5 +49,72 @@ body {
   padding: 0;
   margin: 0;
 }
-#copyright {
+.navbar {
+  align-items: center;
+  background-color: orangered;
+  width: 100px;
+  border-radius: 25%;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 100px;
+}
+.navbar ul {
+  list-style-type: none;
+  visibility: hidden;
+}
+.navbar li {
+  margin: 20px;
+  display: inline;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.navbar button {
+  border: none;
+  background: #00000000;
+  
+}
+@keyframes navbarExpand {
+  from {
+    width: 100px;
+    border-radius: 25%;
+  }
+  to {
+    width: 100vw;
+    border-radius: 0;
+  }
+}
+@keyframes navbarContract {
+  from {
+    width: 100vw;
+    border-radius: 0;
+    
+  }
+  to {
+    width: 100px;
+    border-radius: 25%;
+  }
+}
+
+@keyframes navbarListExpand {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+@keyframes navbarListContract {
+  from {
+    visibility: visible;
+    
+  }
+  to {
+    visibility: hidden;
+  }
 }
