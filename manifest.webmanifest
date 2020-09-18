@@ -16,7 +16,7 @@
         "purpose": "any maskable"
       }
     ],
-    "start_url": "/?source=pwa",
+    "start_url": "/",
     "background_color": "coral",
     "display": "standalone",
     "scope": "/",
@@ -28,6 +28,13 @@
         "description": "A shortcut to Tor's github profile.",
         "url": "/github-link",
         "icons": [{ "src": "/images/github_maskable.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Tor's Projects",
+        "short_name": "Projects",
+        "description": "A shortcut to Tor's projects.",
+        "url": "/projects",
+        "icons": [{ "src": "/images/tor.smedbergz icon.png", "sizes": "192x192" }]
       }
     ]
   }

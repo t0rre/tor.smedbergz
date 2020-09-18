@@ -16,11 +16,11 @@ if ('serviceWorker' in navigator) {
     {
       mainNavbarExpanded = true;
       navbar.style.animation = "navbarExpand 1s forwards";
-      navbarList.style.animation = "navbarListExpand 0s forwards";
+      navbarList.style.animation = "navbarListExpand 2s forwards";
     }
     else {
       mainNavbarExpanded = false;
-      navbarList.style.animation = "navbarListContract 0s forwards";
-      navbar.style.animation = "navbarContract 1s forwards";
+      navbarList.style.animation = "navbarListContract 1s forwards";
+      navbar.style.animation = "navbarContract 3s forwards";
     }
   }

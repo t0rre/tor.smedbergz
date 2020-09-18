@@ -61,7 +61,11 @@ body {
 }
 .navbar ul {
   list-style-type: none;
-  visibility: hidden;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  margin-top: 10px;
+  transform: rotate3d(1,0,0,-90deg);
 }
 .navbar li {
   margin: 20px;
@@ -77,6 +81,7 @@ body {
 .navbar button {
   border: none;
   background: #00000000;
+  z-index: 3;
   
 }
 @keyframes navbarExpand {
@@ -87,7 +92,7 @@ body {
   }
   to {
     width: 100vw;
-    height: 100px;
+    height: 69px;
     border-radius: 0;
   }
 }
@@ -95,7 +100,7 @@ body {
   from {
     width: 100vw;
     border-radius: 0;
-    height: 100px;
+    height: 69px;
     
   }
   to {
@@ -107,18 +112,18 @@ body {
 
 @keyframes navbarListExpand {
   from {
-    visibility: hidden;
+    transform: rotate3d(1,0,0,-90deg);
   }
   to {
-    visibility: visible;
+    transform: rotate3d(1,0,0,0deg);
   }
 }
 @keyframes navbarListContract {
   from {
-    visibility: visible;
+    transform: rotate3d(1,0,0,0deg);
     
   }
   to {
-    visibility: hidden;
+    transform: rotate3d(1,0,0,-90deg);
   }
 }
