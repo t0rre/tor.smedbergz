@@ -26,7 +26,7 @@
         "name": "Tor's Github",
         "short_name": "Github",
         "description": "A shortcut to Tor's github profile.",
-        "url": "https://github.com/t0rre",
+        "url": "/github-link",
         "icons": [{ "src": "/images/github_maskable.png", "sizes": "192x192" }]
       }
     ]
