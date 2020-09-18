@@ -52,12 +52,12 @@ body {
 .navbar {
   align-items: center;
   background-color: orangered;
-  width: 100px;
+  width: 0px;
   border-radius: 25%;
   color: white;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  height: 100px;
+  /*padding-bottom: 10px;
+  padding-top: 10px;*/
+  height: 0px;
 }
 .navbar ul {
   list-style-type: none;
@@ -81,11 +81,13 @@ body {
 }
 @keyframes navbarExpand {
   from {
-    width: 100px;
     border-radius: 25%;
+    height: 0px;
+    width: 0px;
   }
   to {
     width: 100vw;
+    height: 100px;
     border-radius: 0;
   }
 }
@@ -93,11 +95,13 @@ body {
   from {
     width: 100vw;
     border-radius: 0;
+    height: 100px;
     
   }
   to {
     width: 100px;
     border-radius: 25%;
+    height: 0px;
   }
 }
 
