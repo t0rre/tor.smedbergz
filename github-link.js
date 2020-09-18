@@ -1,1 +1,1 @@
-window.location("https://github.com/t0rre");
+document.location = "https://github.com/t0rre";
