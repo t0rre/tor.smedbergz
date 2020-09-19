@@ -81,8 +81,6 @@ body {
 .navbar button {
   border: none;
   background: #00000000;
-  z-index: 3;
-  
 }
 @keyframes navbarExpand {
   from {
