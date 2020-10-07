@@ -1,8 +1,6 @@
 var mainNavbarExpanded = false;
 var navbarButton = document.getElementById("navbarbutton")
-navbarButton.addEventListener("click", function(){
-  navbarToggle()
-});
+navbarButton.addEventListener("click", navbarToggle);
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js')
     .then(function(registration) {
