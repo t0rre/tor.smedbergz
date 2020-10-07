@@ -5,18 +5,21 @@ body {
 .content {
     background-color: white;
     padding: 1rem;
+    width: 60%;
     margin: 2rem;
     display: grid;
     grid-template-columns: 50% 50% ;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 20% 70% 10%;
 }
 .content p {
     color: black;
 }
 .content .bodytext {
     padding: .5rem;
+    padding-right: 1rem;
     display: block;
     grid-row: 2;
+    font-size: 16px;
 }
 .content .titletext {
     grid-row: 1;
@@ -38,11 +41,26 @@ body {
 .content .smallimage {
     z-index: 3;
     width: 4rem;
+    position: relative;
+    bottom: 4.5rem;
+    padding-left: .5rem;
+}
+.content .bodytext a {
+    color: initial;
+}
+.content .link {
+    grid-row: 3;
+    text-align: center;
+}
+.content .link a {
+    color: black;
+    text-align: center;
 }
 @media screen and (max-width: 500px) {
     .content {
         grid-template-columns: 100%;
-        grid-template-rows: 10% 20% 70%;
+        grid-template-rows: 10% 40% 5% 45%;
+        width: 95%;
     }
     .content .bodytext {
         grid-row: 2;
@@ -54,7 +72,10 @@ body {
     }
     .content .contentimage {
         margin-top: 2rem;
-        grid-row: 3;
+        grid-row: 4;
         grid-column: 1;
+    }
+    .content .link {
+        grid-row: 3;
     }
 }
