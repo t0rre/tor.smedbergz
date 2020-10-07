@@ -52,20 +52,19 @@ body {
 .navbar {
   align-items: center;
   background-color: orangered;
-  width: 0px;
-  border-radius: 25%;
+  width: 100%;
   color: white;
   /*padding-bottom: 10px;
   padding-top: 10px;*/
   height: 0px;
+  box-shadow: black 5px 0px 5px;
 }
 .navbar ul {
   list-style-type: none;
   position: absolute;
   left: 30px;
-  top: 15px;
+  top: -69px;
   margin-top: 10px;
-  transform: rotate3d(1,0,0,-90deg);
 }
 .navbar li {
   margin: 20px;
@@ -78,50 +77,43 @@ body {
   text-decoration: none;
   color: white;
 }
-.navbar button {
+.navbar #navbarbutton {
   border: none;
   background: #00000000;
+  cursor: pointer;
 }
 @keyframes navbarExpand {
   from {
-    border-radius: 25%;
     height: 0px;
-    width: 0px;
   }
   to {
-    width: 100vw;
     height: 69px;
-    border-radius: 0;
   }
 }
 @keyframes navbarContract {
   from {
-    width: 100vw;
-    border-radius: 0;
     height: 69px;
     
   }
   to {
-    width: 100px;
-    border-radius: 25%;
     height: 0px;
   }
 }
 
 @keyframes navbarListExpand {
   from {
-    transform: rotate3d(1,0,0,-90deg);
+    top: -35px
   }
   to {
-    transform: rotate3d(1,0,0,0deg);
+    top:13px;
   }
 }
 @keyframes navbarListContract {
   from {
-    transform: rotate3d(1,0,0,0deg);
+    top:13px;
     
   }
   to {
-    transform: rotate3d(1,0,0,-90deg);
+    top:-35px;
   }
 }

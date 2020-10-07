@@ -1,4 +1,8 @@
 var mainNavbarExpanded = false;
+var navbarButton = document.getElementById("navbarbutton")
+navbarButton.addEventListener("click", function(){
+  navbarToggle()
+});
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js')
     .then(function(registration) {
@@ -16,11 +20,11 @@ if ('serviceWorker' in navigator) {
     {
       mainNavbarExpanded = true;
       navbar.style.animation = "navbarExpand 1s forwards";
-      navbarList.style.animation = "navbarListExpand 2s forwards";
+      navbarList.style.animation = "navbarListExpand 1s forwards";
     }
     else {
       mainNavbarExpanded = false;
       navbarList.style.animation = "navbarListContract 1s forwards";
-      navbar.style.animation = "navbarContract 3s forwards";
+      navbar.style.animation = "navbarContract 1s forwards";
     }
   }
