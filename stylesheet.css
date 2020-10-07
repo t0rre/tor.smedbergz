@@ -1,4 +1,8 @@
 /*Copyright Tor Smedberg 2020*/
+* {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
 body {
   height: 100vh;
   background-color: coral;
@@ -13,11 +17,10 @@ body {
   width: auto;
 }
 #title {
-  color: white;
-  font-family: 'Quicksand', sans-serif;
+  padding: 10px;
   font-size: 30px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .footer {
@@ -27,7 +30,6 @@ body {
   font-weight: 400;
   font-style: italic;
   text-align: center;
-  color: white;
   padding: 0;
   margin: 0;
   position: absolute;
@@ -53,7 +55,6 @@ body {
   align-items: center;
   background-color: orangered;
   width: 100%;
-  color: white;
   /*padding-bottom: 10px;
   padding-top: 10px;*/
   height: 0px;
@@ -75,7 +76,6 @@ body {
 }
 .navbar a {
   text-decoration: none;
-  color: white;
 }
 .navbar #navbarbutton {
   border: none;

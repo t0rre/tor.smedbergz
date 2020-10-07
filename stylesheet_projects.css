@@ -1,0 +1,60 @@
+body {
+    background-color: dodgerblue;
+    background-image: none;
+}
+.content {
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 20% 80%;
+}
+.content p {
+    color: black;
+}
+.content .bodytext {
+    padding: .5rem;
+    display: block;
+    grid-row: 2;
+}
+.content .titletext {
+    grid-row: 1;
+    padding: .5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    width: fit-content;
+    display: inline-block;
+}
+.content .contentimage {
+    grid-row: 2;
+    grid-column: 2;
+}
+.content .mainimage {
+    display: inline;
+    width: 100%;
+    position: relative;
+}
+.content .smallimage {
+    z-index: 3;
+    width: 4rem;
+}
+@media screen and (max-width: 500px) {
+    .content {
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 20% 70%;
+    }
+    .content .bodytext {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .content .titletext {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .content .contentimage {
+        margin-top: 2rem;
+        grid-row: 3;
+        grid-column: 1;
+    }
+}
