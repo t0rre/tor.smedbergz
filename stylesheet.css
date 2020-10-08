@@ -60,13 +60,13 @@ body {
   /*padding-bottom: 10px;
   padding-top: 10px;*/
   height: 0px;
-  box-shadow: inset black 0px 0px 5px;
+  box-shadow: black 0px 0px 5px;
 }
 .navbar ul {
   list-style-type: none;
   position: absolute;
   left: 30px;
-  top: 13px;
+  top: -35px;
   margin-top: 10px;
 }
 .navbar li {
