@@ -79,7 +79,7 @@ body {
         grid-row: 3;
     }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1035px) {
     .content {
         grid-template-columns: 100%;
         grid-template-rows: 10% 20% 5% 65%;
